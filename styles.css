@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.square {
+    width: calc(100%/16);
+    height: calc(100%/16);
+    border: 1px solid rgba(0, 0, 0, 10%)
+}
+
+.color {
+    background-color: black;
+    transition: .5s;
+}
+
+#grid-btn,
+#color-btn {
+    padding: 1em 2em;
+    font-size: 1rem;
+    width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#grid-btn {
+    margin-left: 35%;
+}
